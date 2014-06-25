@@ -1,0 +1,4 @@
+_Store
+*.xcuserdatad
+/build/
+*.xccheckout
