@@ -1,0 +1,3 @@
+[submodule "cfxr"]
+	path = cfxr
+	url = git@github.com:nevyn/cfxr.git
