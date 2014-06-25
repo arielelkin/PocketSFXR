@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B082D94B195AC008009507CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D94A195AC008009507CF /* Foundation.framework */; };
+		B082D94D195AC008009507CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D94C195AC008009507CF /* CoreGraphics.framework */; };
+		B082D94F195AC008009507CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D94E195AC008009507CF /* UIKit.framework */; };
+		B082D955195AC008009507CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B082D953195AC008009507CF /* InfoPlist.strings */; };
+		B082D957195AC008009507CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B082D956195AC008009507CF /* main.m */; };
+		B082D95B195AC008009507CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B082D95A195AC008009507CF /* AppDelegate.m */; };
+		B082D95D195AC008009507CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B082D95C195AC008009507CF /* Images.xcassets */; };
+		B082D964195AC008009507CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D963195AC008009507CF /* XCTest.framework */; };
+		B082D965195AC008009507CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D94A195AC008009507CF /* Foundation.framework */; };
+		B082D966195AC008009507CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B082D94E195AC008009507CF /* UIKit.framework */; };
+		B082D96E195AC008009507CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B082D96C195AC008009507CF /* InfoPlist.strings */; };
+		B082D970195AC008009507CF /* PocketSFXRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B082D96F195AC008009507CF /* PocketSFXRTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B082D967195AC008009507CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B082D93F195AC008009507CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B082D946195AC008009507CF;
+			remoteInfo = PocketSFXR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B082D947195AC008009507CF /* PocketSFXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketSFXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B082D94A195AC008009507CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B082D94C195AC008009507CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B082D94E195AC008009507CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B082D952195AC008009507CF /* PocketSFXR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketSFXR-Info.plist"; sourceTree = "<group>"; };
+		B082D954195AC008009507CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B082D956195AC008009507CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B082D958195AC008009507CF /* PocketSFXR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketSFXR-Prefix.pch"; sourceTree = "<group>"; };
+		B082D959195AC008009507CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B082D95A195AC008009507CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B082D95C195AC008009507CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B082D962195AC008009507CF /* PocketSFXRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketSFXRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B082D963195AC008009507CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B082D96B195AC008009507CF /* PocketSFXRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketSFXRTests-Info.plist"; sourceTree = "<group>"; };
+		B082D96D195AC008009507CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B082D96F195AC008009507CF /* PocketSFXRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketSFXRTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B082D944195AC008009507CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D94D195AC008009507CF /* CoreGraphics.framework in Frameworks */,
+				B082D94F195AC008009507CF /* UIKit.framework in Frameworks */,
+				B082D94B195AC008009507CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082D95F195AC008009507CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D964195AC008009507CF /* XCTest.framework in Frameworks */,
+				B082D966195AC008009507CF /* UIKit.framework in Frameworks */,
+				B082D965195AC008009507CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B082D93E195AC008009507CF = {
+			isa = PBXGroup;
+			children = (
+				B082D950195AC008009507CF /* PocketSFXR */,
+				B082D969195AC008009507CF /* PocketSFXRTests */,
+				B082D949195AC008009507CF /* Frameworks */,
+				B082D948195AC008009507CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B082D948195AC008009507CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B082D947195AC008009507CF /* PocketSFXR.app */,
+				B082D962195AC008009507CF /* PocketSFXRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B082D949195AC008009507CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B082D94A195AC008009507CF /* Foundation.framework */,
+				B082D94C195AC008009507CF /* CoreGraphics.framework */,
+				B082D94E195AC008009507CF /* UIKit.framework */,
+				B082D963195AC008009507CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B082D950195AC008009507CF /* PocketSFXR */ = {
+			isa = PBXGroup;
+			children = (
+				B082D959195AC008009507CF /* AppDelegate.h */,
+				B082D95A195AC008009507CF /* AppDelegate.m */,
+				B082D95C195AC008009507CF /* Images.xcassets */,
+				B082D951195AC008009507CF /* Supporting Files */,
+			);
+			path = PocketSFXR;
+			sourceTree = "<group>";
+		};
+		B082D951195AC008009507CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B082D952195AC008009507CF /* PocketSFXR-Info.plist */,
+				B082D953195AC008009507CF /* InfoPlist.strings */,
+				B082D956195AC008009507CF /* main.m */,
+				B082D958195AC008009507CF /* PocketSFXR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B082D969195AC008009507CF /* PocketSFXRTests */ = {
+			isa = PBXGroup;
+			children = (
+				B082D96F195AC008009507CF /* PocketSFXRTests.m */,
+				B082D96A195AC008009507CF /* Supporting Files */,
+			);
+			path = PocketSFXRTests;
+			sourceTree = "<group>";
+		};
+		B082D96A195AC008009507CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B082D96B195AC008009507CF /* PocketSFXRTests-Info.plist */,
+				B082D96C195AC008009507CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B082D946195AC008009507CF /* PocketSFXR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082D973195AC008009507CF /* Build configuration list for PBXNativeTarget "PocketSFXR" */;
+			buildPhases = (
+				B082D943195AC008009507CF /* Sources */,
+				B082D944195AC008009507CF /* Frameworks */,
+				B082D945195AC008009507CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSFXR;
+			productName = PocketSFXR;
+			productReference = B082D947195AC008009507CF /* PocketSFXR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B082D961195AC008009507CF /* PocketSFXRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B082D976195AC008009507CF /* Build configuration list for PBXNativeTarget "PocketSFXRTests" */;
+			buildPhases = (
+				B082D95E195AC008009507CF /* Sources */,
+				B082D95F195AC008009507CF /* Frameworks */,
+				B082D960195AC008009507CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B082D968195AC008009507CF /* PBXTargetDependency */,
+			);
+			name = PocketSFXRTests;
+			productName = PocketSFXRTests;
+			productReference = B082D962195AC008009507CF /* PocketSFXRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B082D93F195AC008009507CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ariel;
+				TargetAttributes = {
+					B082D961195AC008009507CF = {
+						TestTargetID = B082D946195AC008009507CF;
+					};
+				};
+			};
+			buildConfigurationList = B082D942195AC008009507CF /* Build configuration list for PBXProject "PocketSFXR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B082D93E195AC008009507CF;
+			productRefGroup = B082D948195AC008009507CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B082D946195AC008009507CF /* PocketSFXR */,
+				B082D961195AC008009507CF /* PocketSFXRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B082D945195AC008009507CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D955195AC008009507CF /* InfoPlist.strings in Resources */,
+				B082D95D195AC008009507CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082D960195AC008009507CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D96E195AC008009507CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B082D943195AC008009507CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D95B195AC008009507CF /* AppDelegate.m in Sources */,
+				B082D957195AC008009507CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B082D95E195AC008009507CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D970195AC008009507CF /* PocketSFXRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B082D968195AC008009507CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B082D946195AC008009507CF /* PocketSFXR */;
+			targetProxy = B082D967195AC008009507CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B082D953195AC008009507CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B082D954195AC008009507CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B082D96C195AC008009507CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B082D96D195AC008009507CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B082D971195AC008009507CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B082D972195AC008009507CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B082D974195AC008009507CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketSFXR/PocketSFXR-Prefix.pch";
+				INFOPLIST_FILE = "PocketSFXR/PocketSFXR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B082D975195AC008009507CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketSFXR/PocketSFXR-Prefix.pch";
+				INFOPLIST_FILE = "PocketSFXR/PocketSFXR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B082D977195AC008009507CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocketSFXR.app/PocketSFXR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketSFXR/PocketSFXR-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PocketSFXRTests/PocketSFXRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B082D978195AC008009507CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocketSFXR.app/PocketSFXR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketSFXR/PocketSFXR-Prefix.pch";
+				INFOPLIST_FILE = "PocketSFXRTests/PocketSFXRTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B082D942195AC008009507CF /* Build configuration list for PBXProject "PocketSFXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082D971195AC008009507CF /* Debug */,
+				B082D972195AC008009507CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B082D973195AC008009507CF /* Build configuration list for PBXNativeTarget "PocketSFXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082D974195AC008009507CF /* Debug */,
+				B082D975195AC008009507CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B082D976195AC008009507CF /* Build configuration list for PBXNativeTarget "PocketSFXRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B082D977195AC008009507CF /* Debug */,
+				B082D978195AC008009507CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B082D93F195AC008009507CF /* Project object */;
+}
